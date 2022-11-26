@@ -1,7 +1,10 @@
 import './Menu.css'
 
 
-const Menu = ()=> {
+function Menu(props){
+
+    const {children} = props;
+
     return (
         <nav className="mi-menu">
             <ul>
@@ -15,7 +18,7 @@ const Menu = ()=> {
                     <a href="#">Contacto</a>
                 </li>
                 <li>
-                    <a href="#"><img className='img-menu' src="./img/carro-de-la-compra.png"></img></a>
+                    <a href="#">{children}</a>
                 </li>
                 
             </ul>

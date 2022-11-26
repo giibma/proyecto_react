@@ -1,6 +1,10 @@
-const Titulo = () => {
+function Titulo(props){
+
+    const {label} = props;
+    
+
     return (
-        <h1>Bienvenidos a mi tienda</h1>
+        <h1>Bienvenidos a {label}</h1>
     )
 }
 
