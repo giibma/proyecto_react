@@ -12,8 +12,12 @@ const Menu = ()=> {
                     <a href="#">Productos</a>
                 </li>
                 <li>
+                    <a href="#">Contacto</a>
+                </li>
+                <li>
                     <a href="#"><img className='img-menu' src="./img/carro-de-la-compra.png"></img></a>
                 </li>
+                
             </ul>
         </nav>
     )
